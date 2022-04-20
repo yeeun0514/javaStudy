@@ -1,3 +1,8 @@
+/*
+ * int array calculation
+ * max, min, average, sum, count
+ */
+
 package streamPractice;
 
 import java.util.OptionalDouble;

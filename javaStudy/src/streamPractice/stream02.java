@@ -1,13 +1,14 @@
+/*
+ * String sort using stream
+ * String[], List<String>
+ */
+
 package streamPractice;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-/*
- * String sort using stream
- * String[], List<String>
- */
 public class stream02 {
 
 	public static void main(String[] args) {
