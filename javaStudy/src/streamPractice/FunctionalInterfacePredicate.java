@@ -1,0 +1,36 @@
+package streamPractice;
+
+import java.util.Objects;
+
+public class FunctionalInterfacePredicate {
+
+	public static void main(String[] args) {
+		Predicate<String> predicate = (str) -> str.equals("Hello World~!~!");
+		predicate.test("Hello World~!~!");
+	}
+	
+	public interface Predicate<T> {
+		boolean test(T t);
+		
+		default Predicate<T> and(Predicate<? super T> other) {
+			Objects.requireNonNull(other);
+			return (t) -> test(t) && other.test(t);
+		}
+		
+		default Predicate<T> negate() {
+			return (t) -> !test(t);
+		}
+		
+		default Predicate<T> or(Predicate<? super T> other) {
+			Objects.requireNonNull(other);
+			return (t) -> test(t) || other.test(t);
+		}
+		
+		static <T> Predicate<T> isEqual(Object targetRef) {
+			return (null == targetRef)
+					? Objects::isNull
+					: object -> targetRef.equals(object);
+		}
+	}
+
+}
