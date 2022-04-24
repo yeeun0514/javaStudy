@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class stream02 {
+public class Stream02 {
 
 	public static void main(String[] args) {
 		String[] nameArr = {"IronMan", "Captain", "Hulk", "Thor", "Black Panther", "Spidey", "Black Widow"};

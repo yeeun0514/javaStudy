@@ -9,7 +9,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
-public class functionalInterface01 {
+public class FunctionalInterface01 {
 
 	public static void main(String[] args) {
 		
