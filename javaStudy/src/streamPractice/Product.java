@@ -1,5 +1,5 @@
 /**
- * Stream07의 collect 연습을 위한 Product Class
+ * Stream07의 collect joining 연습을 위한 Product Class 
  */
 package streamPractice;
 
