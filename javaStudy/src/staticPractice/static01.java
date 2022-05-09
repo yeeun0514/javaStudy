@@ -1,5 +1,5 @@
 /**
- * 실기 static 문제
+ * 5/7 정보처리기사 실기 static 문제
  */
 package staticPractice;
 
