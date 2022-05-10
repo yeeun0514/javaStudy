@@ -8,7 +8,7 @@ class A {
 	int b;
 }
 
-public class static01 {
+public class Static01 {
 
 	static void func1(A m){
 		m.a *= 10;
