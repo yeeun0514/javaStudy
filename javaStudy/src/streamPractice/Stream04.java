@@ -1,5 +1,5 @@
 /**
- * stream distinct
+ * Stream distinct
  * object
  */
 package streamPractice;

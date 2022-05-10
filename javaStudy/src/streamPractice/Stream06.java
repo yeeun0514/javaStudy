@@ -1,4 +1,4 @@
-/*
+/**
  * 원시 Stream <-> Stream
  */
 package streamPractice;

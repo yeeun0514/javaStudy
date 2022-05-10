@@ -1,6 +1,6 @@
 /**
- * Stream
- * Collector joining 
+ * Stream Collectors
+ * joining 
  */
 package streamPractice;
 

@@ -1,5 +1,5 @@
 /**
- * stream peek
+ * Stream peek
  */
 package streamPractice;
 
