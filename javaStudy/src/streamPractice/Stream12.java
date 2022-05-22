@@ -1,6 +1,6 @@
 /**
  * Stream FlatMap
- * Object List
+ * Object List 
  */
 package streamPractice;
 
